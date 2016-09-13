@@ -1,0 +1,16 @@
+PODS:
+  - adtek-ios (0.1.0)
+
+DEPENDENCIES:
+  - adtek-ios (from `../`)
+
+EXTERNAL SOURCES:
+  adtek-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  adtek-ios: b23686e30f827cb9610276b983ae1f9f62e59c08
+
+PODFILE CHECKSUM: d73c6d1bb8596d4b24d8637682b3dbae908e1692
+
+COCOAPODS: 1.0.1
