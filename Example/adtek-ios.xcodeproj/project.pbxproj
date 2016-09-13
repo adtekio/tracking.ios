@@ -20,7 +20,7 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		833D0D0D1D88421A000CA2FC /* AdtekUrlCreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E525F55C85D3AF5DC0B924AB /* AdtekUrlCreatorTests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		91FACEA4115D76F027D07EC1 /* Pods_adtek_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B6E6C442571ABA8DF8A5 /* Pods_adtek_ios_Example.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,6 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6FF5905D63847A1180B74B77 /* Pods-adtek-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adtek-ios_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adtek-ios_Tests/Pods-adtek-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		70B47BBFC4BA53998C226E37 /* Pods_adtek_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adtek_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +63,7 @@
 		94D83D7327243072BB50949E /* Pods-adtek-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adtek-ios_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDD0652DD09A3A058F0BDCAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C2F714974C8BE131FC7D5BC4 /* Pods-adtek-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adtek-ios_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E525F55C85D3AF5DC0B924AB /* AdtekUrlCreatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdtekUrlCreatorTests.m; sourceTree = "<group>"; };
 		EC56B6E6C442571ABA8DF8A5 /* Pods_adtek_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adtek_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,8 +156,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				E525F55C85D3AF5DC0B924AB /* AdtekUrlCreatorTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -400,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				833D0D0D1D88421A000CA2FC /* AdtekUrlCreatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

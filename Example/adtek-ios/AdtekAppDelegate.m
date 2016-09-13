@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Nicky Weber. All rights reserved.
 //
 
-#import <adtek_ios/AdtekTracker.h>
+#import <Adtek/AdtekTracker.h>
 
 #import "AdtekAppDelegate.h"
 

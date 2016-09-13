@@ -1,0 +1,7 @@
+framework module adtek {
+  umbrella header "adtek-ios.h"
+
+  export *
+  module * { export * }
+}
+
