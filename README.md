@@ -21,6 +21,35 @@ it, simply add the following line to your Podfile:
 pod "adtek-ios"
 ```
 
+## Usage
+
+There are two ways to initialize and configure an instance of an AdtekTracker:
+
+*New instance*
+```
+    AdtekTracker *adtekTracker = [[AdtekTracker alloc] initWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];
+    
+    or 
+    
+    AdtekTracker *adtekTracker = [[AdtekTracker alloc] init];    
+    [adtekTracker configureWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];    
+```
+
+*Shared instance*
+```
+    AdtekTracker *adtekTracker = [AdtekTracker sharedTracker];
+    [adtekTracker configureWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];
+```
+
+In any case you will have to provide a base url to track events.
+
+You can find all the availabe trackable events in `AdtekTracker.h`
+
+Any tracking method can take a dictionary for additional parameters you may like to add. NOTE: Provide dictionaries with NSString values and keys only.
+
+For debugging purposes you can set the logging level of a tracker to something more verbose than `kAdtekTrackerLogLevelOff`. See also `AdtekStdOutLogger.h`.
+
+
 ## Author
 
 Nicky Weber
