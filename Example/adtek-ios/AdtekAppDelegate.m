@@ -19,15 +19,12 @@
 
     // Adtek
 
-    // Initializing a tracker with designated init method// Initializing a tracker with designated init method
-    AdtekTracker *adtekTracker = [[AdtekTracker alloc] initWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];
-
     // Accessing and configuration of a singleton tracker
-    AdtekTracker *adtekTracker2 = [AdtekTracker sharedTracker];
-    adtekTracker2.logLevel = kAdtekTrackerLogLevelDebug;
-    [adtekTracker2 configureWithURL:[NSURL URLWithString:@"https://inapp.adtek.io"]];
+    AdtekTracker *adtekTracker = [AdtekTracker sharedTracker];
+    adtekTracker.logLevel = kAdtekTrackerLogLevelDebug;
+    [adtekTracker configureWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];
 
-    [adtekTracker2 trackInstall:[CommonTrackingData commonDataWithAdditionalData:nil]];
+    [adtekTracker trackInstall:[CommonTrackingData commonDataWithAdditionalData:nil]];
 
     return YES;
 }
