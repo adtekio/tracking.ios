@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <adtek_ios/AdtekUrlCreator.h>
+#import <Adtek/adtek-ios-umbrella.h>
 
 @interface AdtekUrlCreatorTests : XCTestCase
 
@@ -15,7 +15,16 @@
 
 @implementation AdtekUrlCreatorTests
 
-- (void)testUrlWithPath
+- (void)testUrlWithPath_noQueryParamater
+{
+    AdtekUrlCreator *adtekUrlCreator = [[AdtekUrlCreator alloc] initWithURL:[NSURL URLWithString:@"https://test.com"]];
+
+    NSURL *url = [adtekUrlCreator urlWithPath:@"here" parameters:nil];
+
+    XCTAssertEqualObjects([url absoluteString], @"https://test.com/here");
+}
+
+- (void)testUrlWithPath_oneQueryParameter
 {
     AdtekUrlCreator *adtekUrlCreator = [[AdtekUrlCreator alloc] initWithURL:[NSURL URLWithString:@"https://test.com"]];
 

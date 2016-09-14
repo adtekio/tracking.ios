@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA2A09316148D9BBC7893E949243239 /* adtek-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F7781A9381CB322BE445FCF6A29A2 /* adtek-ios-dummy.m */; };
+		14F3CEB408DD35CF6663E80B4DF43329 /* Pods-adtek-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CA18525D4EB90D56E933E8687FCF98 /* Pods-adtek-ios_Example-dummy.m */; };
+		17387429899FD35E3B12C753B406057F /* AdtekTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A975B694000FF84DE0B858407727A01 /* AdtekTracker.m */; };
+		1CFA4B082377441E65C4FF1181D7F65E /* AdtekStdOutLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3E59AB9399EB5BD75FF076E2D78D4 /* AdtekStdOutLogger.m */; };
+		39DD4B77BBAC9C492D14AB0B8F37B829 /* AdtekStdOutLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D10F612FD1B328C9B612012014AD9E6 /* AdtekStdOutLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADF03C41E707F83613D47C40EF41E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		62972C72D1FEBBF6906D2D40B8F81C8D /* AdtekUrlCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = CA194EA3961CE94736B4AB8F417F65BC /* AdtekUrlCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C53E3B6A8944A771B07E2E4E78D7DA /* Pods-adtek-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8786F0CBE577F927D93F1F52EB934428 /* Pods-adtek-ios_Tests-dummy.m */; };
+		AA9702B216AC1505C193BB25A2153976 /* adtek-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE919AC30AA4E194DF0A671E1D94DD0 /* adtek-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3D5C79E814769A564159866F1E3566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BB47E605EA0FCEE3D2FC21E8EB3BC019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D2B25962C192CCB413E768DFEA794B4A /* AdtekTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8718B5A1F84A0AAD61BC74175450D1FB /* AdtekTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E06E7D541F88E316EECA325F357F2DF9 /* Pods-adtek-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BC1413DFE4AEF6509DF9E9F82D8B2C /* Pods-adtek-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F334F067BFBF2EC8BAB7C480560245AD /* Pods-adtek-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C28FD4B082159D9CDE60C943F1681A /* Pods-adtek-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C5CC1DF6FB662D0D12826FB5C8C5FD /* AdtekUrlCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D04D00894380EF5DDA45F63BC039B /* AdtekUrlCreator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38AFF6C46FD51E1604F3314A219E1F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9924EB4BB06CEF738D9F6F07835A3C3;
+			remoteInfo = "adtek-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BC1413DFE4AEF6509DF9E9F82D8B2C /* Pods-adtek-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-adtek-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		125F7781A9381CB322BE445FCF6A29A2 /* adtek-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "adtek-ios-dummy.m"; sourceTree = "<group>"; };
+		16C7B22966214E217C8F307BC14BF833 /* Pods-adtek-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adtek-ios_Example-resources.sh"; sourceTree = "<group>"; };
+		3DE919AC30AA4E194DF0A671E1D94DD0 /* adtek-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "adtek-ios-umbrella.h"; sourceTree = "<group>"; };
+		42960FBA76C4482B1D75D45FB43FC266 /* Pods-adtek-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-adtek-ios_Example.modulemap"; sourceTree = "<group>"; };
+		49C30A93B7CF85C37EB0FF956FAC99A9 /* adtek-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "adtek-ios.modulemap"; sourceTree = "<group>"; };
+		4D0D9DB732138190934FA3ACD5B2F88D /* Pods-adtek-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-adtek-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		516742FF76D803142E88952B9B0777DC /* Pods-adtek-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-adtek-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51CA18525D4EB90D56E933E8687FCF98 /* Pods-adtek-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-adtek-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		694C5D0E82866751CCADD346DF55667E /* Pods-adtek-ios_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adtek-ios_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D10F612FD1B328C9B612012014AD9E6 /* AdtekStdOutLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdtekStdOutLogger.h; sourceTree = "<group>"; };
+		79C7A011F5B3A33038DE5C8D216E6938 /* adtek-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "adtek-ios-prefix.pch"; sourceTree = "<group>"; };
+		7A975B694000FF84DE0B858407727A01 /* AdtekTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdtekTracker.m; sourceTree = "<group>"; };
+		7B265DCCC842DCC23CC6D636B07381AD /* Pods-adtek-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adtek-ios_Tests-resources.sh"; sourceTree = "<group>"; };
+		8718B5A1F84A0AAD61BC74175450D1FB /* AdtekTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdtekTracker.h; sourceTree = "<group>"; };
+		8786F0CBE577F927D93F1F52EB934428 /* Pods-adtek-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-adtek-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		8AAA918FCFA166B0D0DD7DAB827AA484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BC1DE4A18AD48AF62F91EDFEAF2692 /* Pods_adtek_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adtek_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94357CFF83717BC1CB4819A5641F1012 /* adtek-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "adtek-ios.xcconfig"; sourceTree = "<group>"; };
+		94A5DABAA111B806D7A9AB5AF5917955 /* Pods-adtek-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-adtek-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F9C9442BDDFF1DB0CED03B7DC571529 /* Pods-adtek-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adtek-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A9C28FD4B082159D9CDE60C943F1681A /* Pods-adtek-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-adtek-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		B00388662EF098AE2F660282B742CF7C /* Pods_adtek_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adtek_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF930C73DBA9E91C962909FC8C910331 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C787600C332FEC1EF773D6B74F0FB3BA /* Adtek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adtek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA194EA3961CE94736B4AB8F417F65BC /* AdtekUrlCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdtekUrlCreator.h; sourceTree = "<group>"; };
+		CE6D04D00894380EF5DDA45F63BC039B /* AdtekUrlCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdtekUrlCreator.m; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3F16CDE92A080D9252C5A27BFBA23E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBC68988688D0341F8E7ABFA3BCCADE /* Pods-adtek-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adtek-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DC2690C4E928760C3B88146531550302 /* Pods-adtek-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-adtek-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E45F08BC81D2F64373DDF1D0F6975AD3 /* Pods-adtek-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-adtek-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E628F675E8EAA5E56F851DC99672EF36 /* Pods-adtek-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adtek-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA78008E2397E8E8F6F537763FB459F7 /* Pods-adtek-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-adtek-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF3E59AB9399EB5BD75FF076E2D78D4 /* AdtekStdOutLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdtekStdOutLogger.m; sourceTree = "<group>"; };
+		F0E03846D4443110C2FF1662E6400899 /* Pods-adtek-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-adtek-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F4168AC5DCCF75C04FF99259A8815D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF03C41E707F83613D47C40EF41E84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED60CA38AC69037553945A0360C6ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D5C79E814769A564159866F1E3566 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960FD05A8F1FA165B4AED955D33416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB47E605EA0FCEE3D2FC21E8EB3BC019 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FAE64F150E29545A0CE4D8B3A3B8794 /* Pods-adtek-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F16CDE92A080D9252C5A27BFBA23E9 /* Info.plist */,
+				4D0D9DB732138190934FA3ACD5B2F88D /* Pods-adtek-ios_Tests.modulemap */,
+				516742FF76D803142E88952B9B0777DC /* Pods-adtek-ios_Tests-acknowledgements.markdown */,
+				F0E03846D4443110C2FF1662E6400899 /* Pods-adtek-ios_Tests-acknowledgements.plist */,
+				8786F0CBE577F927D93F1F52EB934428 /* Pods-adtek-ios_Tests-dummy.m */,
+				694C5D0E82866751CCADD346DF55667E /* Pods-adtek-ios_Tests-frameworks.sh */,
+				7B265DCCC842DCC23CC6D636B07381AD /* Pods-adtek-ios_Tests-resources.sh */,
+				04BC1413DFE4AEF6509DF9E9F82D8B2C /* Pods-adtek-ios_Tests-umbrella.h */,
+				EA78008E2397E8E8F6F537763FB459F7 /* Pods-adtek-ios_Tests.debug.xcconfig */,
+				9F9C9442BDDFF1DB0CED03B7DC571529 /* Pods-adtek-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-adtek-ios_Tests";
+			path = "Target Support Files/Pods-adtek-ios_Tests";
+			sourceTree = "<group>";
+		};
+		2F105787869CF628F076680BB931BA66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE45B42FF7F0A0F9D714105B7C1B9141 /* adtek-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		419AC9CACCE312C9855F04AD8E11770E /* adtek-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DA2CA70C67EDFCD5A41900F4B8E57590 /* Classes */,
+			);
+			path = "adtek-ios";
+			sourceTree = "<group>";
+		};
+		45DA0A665B853BB86B6FE1021C5B1173 /* Pods-adtek-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BF930C73DBA9E91C962909FC8C910331 /* Info.plist */,
+				42960FBA76C4482B1D75D45FB43FC266 /* Pods-adtek-ios_Example.modulemap */,
+				E45F08BC81D2F64373DDF1D0F6975AD3 /* Pods-adtek-ios_Example-acknowledgements.markdown */,
+				DC2690C4E928760C3B88146531550302 /* Pods-adtek-ios_Example-acknowledgements.plist */,
+				51CA18525D4EB90D56E933E8687FCF98 /* Pods-adtek-ios_Example-dummy.m */,
+				94A5DABAA111B806D7A9AB5AF5917955 /* Pods-adtek-ios_Example-frameworks.sh */,
+				16C7B22966214E217C8F307BC14BF833 /* Pods-adtek-ios_Example-resources.sh */,
+				A9C28FD4B082159D9CDE60C943F1681A /* Pods-adtek-ios_Example-umbrella.h */,
+				E628F675E8EAA5E56F851DC99672EF36 /* Pods-adtek-ios_Example.debug.xcconfig */,
+				DBBC68988688D0341F8E7ABFA3BCCADE /* Pods-adtek-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-adtek-ios_Example";
+			path = "Target Support Files/Pods-adtek-ios_Example";
+			sourceTree = "<group>";
+		};
+		76448B5AE4B025D21BFEC206E85658D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DA0A665B853BB86B6FE1021C5B1173 /* Pods-adtek-ios_Example */,
+				0FAE64F150E29545A0CE4D8B3A3B8794 /* Pods-adtek-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2F105787869CF628F076680BB931BA66 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C65F83D65E43CD180B1202AF36B8C596 /* Products */,
+				76448B5AE4B025D21BFEC206E85658D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65F83D65E43CD180B1202AF36B8C596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C787600C332FEC1EF773D6B74F0FB3BA /* Adtek.framework */,
+				92BC1DE4A18AD48AF62F91EDFEAF2692 /* Pods_adtek_ios_Example.framework */,
+				B00388662EF098AE2F660282B742CF7C /* Pods_adtek_ios_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2CA70C67EDFCD5A41900F4B8E57590 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D10F612FD1B328C9B612012014AD9E6 /* AdtekStdOutLogger.h */,
+				EDF3E59AB9399EB5BD75FF076E2D78D4 /* AdtekStdOutLogger.m */,
+				8718B5A1F84A0AAD61BC74175450D1FB /* AdtekTracker.h */,
+				7A975B694000FF84DE0B858407727A01 /* AdtekTracker.m */,
+				CA194EA3961CE94736B4AB8F417F65BC /* AdtekUrlCreator.h */,
+				CE6D04D00894380EF5DDA45F63BC039B /* AdtekUrlCreator.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE45B42FF7F0A0F9D714105B7C1B9141 /* adtek-ios */ = {
+			isa = PBXGroup;
+			children = (
+				419AC9CACCE312C9855F04AD8E11770E /* adtek-ios */,
+				FBEC8597E70149AC0FAB1DEC6B6BFFD9 /* Support Files */,
+			);
+			name = "adtek-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FBEC8597E70149AC0FAB1DEC6B6BFFD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C30A93B7CF85C37EB0FF956FAC99A9 /* adtek-ios.modulemap */,
+				94357CFF83717BC1CB4819A5641F1012 /* adtek-ios.xcconfig */,
+				125F7781A9381CB322BE445FCF6A29A2 /* adtek-ios-dummy.m */,
+				79C7A011F5B3A33038DE5C8D216E6938 /* adtek-ios-prefix.pch */,
+				3DE919AC30AA4E194DF0A671E1D94DD0 /* adtek-ios-umbrella.h */,
+				8AAA918FCFA166B0D0DD7DAB827AA484 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/adtek-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC7E8404B4290FEA127C5FBACDF35D67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F334F067BFBF2EC8BAB7C480560245AD /* Pods-adtek-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12E5465FC6CE0979DC3E0F3401C2026 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9702B216AC1505C193BB25A2153976 /* adtek-ios-umbrella.h in Headers */,
+				39DD4B77BBAC9C492D14AB0B8F37B829 /* AdtekStdOutLogger.h in Headers */,
+				D2B25962C192CCB413E768DFEA794B4A /* AdtekTracker.h in Headers */,
+				62972C72D1FEBBF6906D2D40B8F81C8D /* AdtekUrlCreator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6719A446D3BEB2DFDB16875FF60A483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06E7D541F88E316EECA325F357F2DF9 /* Pods-adtek-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C936ECBFD59F51F298ED938CD18DA988 /* Pods-adtek-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1702019F831F645EE6B24A85FEFCB6B6 /* Build configuration list for PBXNativeTarget "Pods-adtek-ios_Tests" */;
+			buildPhases = (
+				348EBD4CEE4598AA2E47AAE998FD626B /* Sources */,
+				04F4168AC5DCCF75C04FF99259A8815D /* Frameworks */,
+				F6719A446D3BEB2DFDB16875FF60A483 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-adtek-ios_Tests";
+			productName = "Pods-adtek-ios_Tests";
+			productReference = B00388662EF098AE2F660282B742CF7C /* Pods_adtek_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9924EB4BB06CEF738D9F6F07835A3C3 /* adtek-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4224FD13161E0AFA4244B657ADA6F0 /* Build configuration list for PBXNativeTarget "adtek-ios" */;
+			buildPhases = (
+				D100E6363644DAC7A6CB0F22A9406B1D /* Sources */,
+				1960FD05A8F1FA165B4AED955D33416D /* Frameworks */,
+				B12E5465FC6CE0979DC3E0F3401C2026 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adtek-ios";
+			productName = "adtek-ios";
+			productReference = C787600C332FEC1EF773D6B74F0FB3BA /* Adtek.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1AD78385E8D34655F65F9F6270A242A /* Pods-adtek-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9578140076AB806459AE43F0515EA468 /* Build configuration list for PBXNativeTarget "Pods-adtek-ios_Example" */;
+			buildPhases = (
+				5278FA2D41C6E02A9A39E093CA4BDB89 /* Sources */,
+				0ED60CA38AC69037553945A0360C6ED7 /* Frameworks */,
+				AC7E8404B4290FEA127C5FBACDF35D67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8F63FB3D4576E4F0025B223368DAA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-adtek-ios_Example";
+			productName = "Pods-adtek-ios_Example";
+			productReference = 92BC1DE4A18AD48AF62F91EDFEAF2692 /* Pods_adtek_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C65F83D65E43CD180B1202AF36B8C596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9924EB4BB06CEF738D9F6F07835A3C3 /* adtek-ios */,
+				E1AD78385E8D34655F65F9F6270A242A /* Pods-adtek-ios_Example */,
+				C936ECBFD59F51F298ED938CD18DA988 /* Pods-adtek-ios_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348EBD4CEE4598AA2E47AAE998FD626B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C53E3B6A8944A771B07E2E4E78D7DA /* Pods-adtek-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5278FA2D41C6E02A9A39E093CA4BDB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3CEB408DD35CF6663E80B4DF43329 /* Pods-adtek-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D100E6363644DAC7A6CB0F22A9406B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA2A09316148D9BBC7893E949243239 /* adtek-ios-dummy.m in Sources */,
+				1CFA4B082377441E65C4FF1181D7F65E /* AdtekStdOutLogger.m in Sources */,
+				17387429899FD35E3B12C753B406057F /* AdtekTracker.m in Sources */,
+				F6C5CC1DF6FB662D0D12826FB5C8C5FD /* AdtekUrlCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8F63FB3D4576E4F0025B223368DAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "adtek-ios";
+			target = C9924EB4BB06CEF738D9F6F07835A3C3 /* adtek-ios */;
+			targetProxy = 38AFF6C46FD51E1604F3314A219E1F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15968E45A61635811FA8F11E80BBB859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94357CFF83717BC1CB4819A5641F1012 /* adtek-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/adtek-ios/adtek-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/adtek-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/adtek-ios/adtek-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Adtek;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40662D909AA49F8389272DCAD2008F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA78008E2397E8E8F6F537763FB459F7 /* Pods-adtek-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-adtek-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-adtek-ios_Tests/Pods-adtek-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_adtek_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94C8DFA765A2E424362AFFBDD07D0BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9C9442BDDFF1DB0CED03B7DC571529 /* Pods-adtek-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-adtek-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-adtek-ios_Tests/Pods-adtek-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_adtek_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		971D15FF76FA80D017E0C104720321BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBC68988688D0341F8E7ABFA3BCCADE /* Pods-adtek-ios_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-adtek-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_adtek_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A62233FF9A78E1AEC7D71E7DD6FDE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E628F675E8EAA5E56F851DC99672EF36 /* Pods-adtek-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-adtek-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_adtek_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7546F3E6B810561400F84DEE0E759E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94357CFF83717BC1CB4819A5641F1012 /* adtek-ios.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/adtek-ios/adtek-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/adtek-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/adtek-ios/adtek-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Adtek;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1702019F831F645EE6B24A85FEFCB6B6 /* Build configuration list for PBXNativeTarget "Pods-adtek-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40662D909AA49F8389272DCAD2008F92 /* Debug */,
+				94C8DFA765A2E424362AFFBDD07D0BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4224FD13161E0AFA4244B657ADA6F0 /* Build configuration list for PBXNativeTarget "adtek-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7546F3E6B810561400F84DEE0E759E5 /* Debug */,
+				15968E45A61635811FA8F11E80BBB859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9578140076AB806459AE43F0515EA468 /* Build configuration list for PBXNativeTarget "Pods-adtek-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A62233FF9A78E1AEC7D71E7DD6FDE9C /* Debug */,
+				971D15FF76FA80D017E0C104720321BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

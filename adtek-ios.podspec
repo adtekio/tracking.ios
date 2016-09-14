@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of adtek-ios.'
   s.module_name      = 'Adtek'
-  s.module_map       = 'adtek-ios/module.modulemap'
+#  s.module_map       = 'adtek-ios/module.modulemap'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC

@@ -9,6 +9,6 @@
 
 - (nullable instancetype)initWithURL:(nonnull NSURL *)url;
 
-- (nullable NSURL *)urlWithPath:(nonnull NSString *)path parameters:(nonnull NSDictionary *)parameters;
+- (nullable NSURL *)urlWithPath:(nonnull NSString *)path parameters:(nullable NSDictionary *)parameters;
 
 @end

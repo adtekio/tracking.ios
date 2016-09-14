@@ -6,9 +6,10 @@
 //  Copyright (c) 2016 Nicky Weber. All rights reserved.
 //
 
-#import <Adtek/AdtekTracker.h>
+#import <Adtek/adtek-ios-umbrella.h>
 
 #import "AdtekAppDelegate.h"
+#import "CommonTrackingData.h"
 
 @implementation AdtekAppDelegate
 
@@ -16,8 +17,17 @@
 {
     // Override point for customization after application launch.
 
+    // Adtek
 
-    AdtekTracker *adtekTracker = [[AdtekTracker alloc] init];
+    // Initializing a tracker with designated init method// Initializing a tracker with designated init method
+    AdtekTracker *adtekTracker = [[AdtekTracker alloc] initWithURL:[NSURL URLWithString:@"https://test.adtek.io"]];
+
+    // Accessing and configuration of a singleton tracker
+    AdtekTracker *adtekTracker2 = [AdtekTracker sharedTracker];
+    adtekTracker2.logLevel = kAdtekTrackerLogLevelDebug;
+    [adtekTracker2 configureWithURL:[NSURL URLWithString:@"https://inapp.adtek.io"]];
+
+    [adtekTracker2 trackInstall:[CommonTrackingData commonDataWithAdditionalData:nil]];
 
     return YES;
 }
@@ -41,6 +51,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    [[AdtekTracker sharedTracker] trackApplicationOpen:[CommonTrackingData commonDataWithAdditionalData:nil]];
+
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 

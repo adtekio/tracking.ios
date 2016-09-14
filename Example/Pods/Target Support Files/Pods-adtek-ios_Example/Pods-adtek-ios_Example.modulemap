@@ -1,0 +1,6 @@
+framework module Pods_adtek_ios_Example {
+  umbrella header "Pods-adtek-ios_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

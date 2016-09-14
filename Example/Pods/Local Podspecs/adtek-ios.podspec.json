@@ -1,0 +1,23 @@
+{
+  "name": "adtek-ios",
+  "version": "0.1.0",
+  "summary": "A short description of adtek-ios.",
+  "module_name": "Adtek",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/adtek-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nicky Weber": "nicky.weber@adtek.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/adtek-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "adtek-ios/Classes/**/*"
+}

@@ -33,11 +33,13 @@
 {
     NSAssert(self.url, @"url not configured");
     NSParameterAssert(path);
-    NSParameterAssert(parameters);
 
-    NSURLComponents *components = [self urlWithParamaters:parameters];
-
-    return [components.URL URLByAppendingPathComponent:path];
+    if (parameters)
+    {
+        NSURLComponents *components = [self urlWithParamaters:parameters];
+        return [components.URL URLByAppendingPathComponent:path];
+    }
+    return [self.url URLByAppendingPathComponent:path];
 }
 
 - (NSURLComponents *)urlWithParamaters:(NSDictionary *)parameters

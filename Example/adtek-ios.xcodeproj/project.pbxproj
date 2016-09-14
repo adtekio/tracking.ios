@@ -23,6 +23,7 @@
 		833D0D0D1D88421A000CA2FC /* AdtekUrlCreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E525F55C85D3AF5DC0B924AB /* AdtekUrlCreatorTests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		91FACEA4115D76F027D07EC1 /* Pods_adtek_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC56B6E6C442571ABA8DF8A5 /* Pods_adtek_ios_Example.framework */; };
+		E525F37875DD753C04A78B39 /* CommonTrackingData.m in Sources */ = {isa = PBXBuildFile; fileRef = E525F23EAB7BBFA2DB9B78A9 /* CommonTrackingData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		94D83D7327243072BB50949E /* Pods-adtek-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adtek-ios_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDD0652DD09A3A058F0BDCAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C2F714974C8BE131FC7D5BC4 /* Pods-adtek-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adtek-ios_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adtek-ios_Example/Pods-adtek-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E525F23EAB7BBFA2DB9B78A9 /* CommonTrackingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTrackingData.m; sourceTree = "<group>"; };
+		E525F35150CA378639878980 /* CommonTrackingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTrackingData.h; sourceTree = "<group>"; };
 		E525F55C85D3AF5DC0B924AB /* AdtekUrlCreatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdtekUrlCreatorTests.m; sourceTree = "<group>"; };
 		EC56B6E6C442571ABA8DF8A5 /* Pods_adtek_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adtek_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 				6003F5A6195388D20070C39A /* AdtekViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E525F23EAB7BBFA2DB9B78A9 /* CommonTrackingData.m */,
+				E525F35150CA378639878980 /* CommonTrackingData.h */,
 			);
 			name = "Example for adtek-ios";
 			path = "adtek-ios";
@@ -393,6 +398,7 @@
 				6003F59E195388D20070C39A /* AdtekAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AdtekViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E525F37875DD753C04A78B39 /* CommonTrackingData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
